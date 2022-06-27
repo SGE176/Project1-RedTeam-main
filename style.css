@@ -1,0 +1,355 @@
+body {
+
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100px;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img {
+  width: 300px;
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  /* color: white; */
+}
+
+.locationTitle {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.dropdown-item {
+  color: #0d6efd !important;
+}
+
+.dropdown {
+  position: static !important;
+  color:rgba(0, 0, 0, 0.75);
+}
+
+.dropdown-menu {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  margin-top: 0px !important;
+  width: 80% !important;
+  margin-right: auto !important;
+  margin-left: 10% !important;
+  padding: 0 2em 2em 2em;
+}
+
+
+/* LOGIN */
+
+#loginBTN {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+#loginLogo {
+  margin-top: -50px;
+}
+
+#loginFish {
+  margin-top: 50px;
+  margin-left: -8px;
+}
+
+/* FOOTER */
+footer {
+  background-image: url("/assets/images/footer-bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.footer-menu a {
+  text-decoration: underline;
+}
+
+footer .navbar-nav a {
+  font-weight: bold;
+  color: black;
+}
+
+footer .social-icons {
+  margin-top: -40px;
+}
+
+footer i {
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa-linkedin {
+  background-color: #025f98;
+}
+.fa-instagram {
+  background-color: #656668;
+}
+.fa-twitter {
+  background-color: #25defd;
+}
+.fa-yelp {
+  background-color: #d22b3d;
+}
+.fa-facebook {
+  background-color: #71b4fb;
+}
+.fa-youtube-play {
+  background-color: #cc0a22;
+}
+
+.footer-divider {
+  width: 80%;
+  margin: auto;
+}
+
+.footer-location {
+  text-align: center;
+}
+
+.footer-location p {
+  font-weight: bold;
+}
+
+/* Main Content */
+h1 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 3em;
+  color:white;
+  -webkit-text-stroke:1px #E4EAEA;
+  text-align:center;
+}
+h2 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+}
+h3 {
+  font-family: 'Bodoni Moda', serif;
+  padding-bottom: 0.5em;
+  padding-top:0.5em;
+   font-size:1.5em;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 2;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 0.5em;
+}
+/* Index */
+#index-title {
+   display:flex;
+  background-image:url("/assets/images/home.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:35em;
+}
+#index-content img {
+  margin-top:1em;
+}
+#infovideo, #swimvideo {
+  padding:1em;
+  text-align:center;
+  width:20em;
+  color:#03B1F4;
+  font-weight: bold;
+}
+#hands-on {
+  background-image: url("/assets/images/home-hands-on-teaching.jpeg");
+   display:flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:1em;
+}
+#hands-on ul {
+  list-style: initial;
+  margin-left:2em;
+}
+#hands-on ul li {
+  margin:0;
+}
+#hands-on ul li p{
+margin-bottom:0;
+}
+#hands-on ul li p span {
+  text-decoration: underline;
+}
+#registernow {
+  display:flex;
+  background-color:#03B1F4;
+  border:none;
+  padding:0.5em 1em 0.5em 1em;
+}
+#school-locations {
+  background-image: url("/assets/images/home-our-locations-bg.jpeg");
+   display:flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  text-align:center;
+}
+#school-locations h1 {
+  margin-top:2em;
+}
+#school-locations h2 {
+  color:white;
+}
+#school-locations p {
+  color:white;
+  margin-bottom:3em;
+}
+#locationmap {
+  background-image: url("/assets/images/home-our-locations-map.png");
+   display:flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  padding-right:0;
+}
+#findlocation {
+  background-color:#03B1F4;
+  border:none;
+  padding:0.5em 1em 0.5em 1em;
+  margin-bottom:6em;
+}
+#awardswon h2{
+font-size:3em;
+}
+#award-info {
+  margin-left:20%;
+  margin-right:20%;
+}
+.award-icon {
+  text-align:center;
+  margin-bottom:3em;
+}
+.award-icon img {
+  width:70%;
+}
+/* Adult Programs */
+#adultprograms-title {
+  display:flex;
+  background-image:url("/assets/images/lap-swimming.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+}
+#adultprograms-locations p {
+  font-weight: 800;
+  margin-bottom: 0.5em;
+}
+/* Swim Lessons */
+#swimlessons-title {
+  display:flex;
+  background-image:url("assets/images/which-lesson-is-best.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+}
+#swimlessons-content p{
+  margin-bottom:0;
+}
+/* Swim Programs */
+#swimprograms-title {
+  display:flex;
+  background-image:url("assets/images/which-lesson-is-best.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+}
+
+/* Contact Us */
+#contact-title {
+  display:flex;
+background-image:url("/assets/images/contact-hero.jpeg") ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;;
+height:25em;
+}
+#contact-content p{
+text-align:center;
+}
+#contact-info {
+justify-content: center;
+}
+.contact-icon {
+text-align:center;
+margin-bottom:3em;
+}
+.contact-icon img {
+width:100%;
+}
+#about, #swimprograms-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about #wedogoodjob h2{
+  font-family: 'Bodoni Moda', serif;
+  font-size:2em;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top:2em;
+}
+#about #wedogoodjob p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:1em;
+  line-height: 2;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0 auto;
+  width: 600px;
+}
+#about #wedogoodjob #hearaboutus{
+  font-family: 'Open Sans', sans-serif;
+  font-size:em;
+  text-align: center;
+  }
+#awardswon h2{
+font-size:3em;
+}
+#award-info {
+  margin-left:20%;
+  margin-right:20%;
+}
+.award-icon {
+  text-align:center;
+  margin-bottom:3em;
+}
+.award-icon img {
+  width:70%;
+}
